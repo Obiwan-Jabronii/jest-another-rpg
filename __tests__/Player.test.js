@@ -1,6 +1,6 @@
-const { createTestScheduler } = require('jest');
-const Player = require('../lib/Player.js');
-const Potion = require('../lib/Potion.js');
+import { createTestScheduler } from 'jest'
+import Player from '../lib/Player';
+import Potion from '../lib/Potion';
 
 jest.mock('../lib/Potion');
 
